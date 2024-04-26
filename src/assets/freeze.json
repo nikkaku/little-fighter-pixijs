@@ -1,0 +1,3581 @@
+{
+  "frames": {
+        "rollSequence0000.png": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0001.png": {
+          "frame": {
+            "x": 80,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0002.png": {
+          "frame": {
+            "x": 160,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0003.png": {
+          "frame": {
+            "x": 240,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0004.png": {
+          "frame": {
+            "x": 320,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0005.png": {
+          "frame": {
+            "x": 400,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0006.png": {
+          "frame": {
+            "x": 480,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0007.png": {
+          "frame": {
+            "x": 560,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0008.png": {
+          "frame": {
+            "x": 640,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0009.png": {
+          "frame": {
+            "x": 720,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0010.png": {
+          "frame": {
+            "x": 0,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0011.png": {
+          "frame": {
+            "x": 80,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0012.png": {
+          "frame": {
+            "x": 160,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0013.png": {
+          "frame": {
+            "x": 240,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0014.png": {
+          "frame": {
+            "x": 320,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0015.png": {
+          "frame": {
+            "x": 400,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0016.png": {
+          "frame": {
+            "x": 480,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0017.png": {
+          "frame": {
+            "x": 560,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0018.png": {
+          "frame": {
+            "x": 640,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0019.png": {
+          "frame": {
+            "x": 720,
+            "y": 80,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0020.png": {
+          "frame": {
+            "x": 0,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0021.png": {
+          "frame": {
+            "x": 80,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0022.png": {
+          "frame": {
+            "x": 160,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0023.png": {
+          "frame": {
+            "x": 240,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0024.png": {
+          "frame": {
+            "x": 320,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0025.png": {
+          "frame": {
+            "x": 400,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0026.png": {
+          "frame": {
+            "x": 480,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0027.png": {
+          "frame": {
+            "x": 560,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0028.png": {
+          "frame": {
+            "x": 640,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0029.png": {
+          "frame": {
+            "x": 720,
+            "y": 160,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0030.png": {
+          "frame": {
+            "x": 0,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0031.png": {
+          "frame": {
+            "x": 80,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0032.png": {
+          "frame": {
+            "x": 160,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0033.png": {
+          "frame": {
+            "x": 240,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0034.png": {
+          "frame": {
+            "x": 320,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0035.png": {
+          "frame": {
+            "x": 400,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0036.png": {
+          "frame": {
+            "x": 480,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0037.png": {
+          "frame": {
+            "x": 560,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0038.png": {
+          "frame": {
+            "x": 640,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0039.png": {
+          "frame": {
+            "x": 720,
+            "y": 240,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0040.png": {
+          "frame": {
+            "x": 0,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0041.png": {
+          "frame": {
+            "x": 80,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0042.png": {
+          "frame": {
+            "x": 160,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0043.png": {
+          "frame": {
+            "x": 240,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0044.png": {
+          "frame": {
+            "x": 320,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0045.png": {
+          "frame": {
+            "x": 400,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0046.png": {
+          "frame": {
+            "x": 480,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0047.png": {
+          "frame": {
+            "x": 560,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0048.png": {
+          "frame": {
+            "x": 640,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0049.png": {
+          "frame": {
+            "x": 720,
+            "y": 320,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0050.png": {
+          "frame": {
+            "x": 0,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0051.png": {
+          "frame": {
+            "x": 80,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0052.png": {
+          "frame": {
+            "x": 160,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0053.png": {
+          "frame": {
+            "x": 240,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0054.png": {
+          "frame": {
+            "x": 320,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0055.png": {
+          "frame": {
+            "x": 400,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0056.png": {
+          "frame": {
+            "x": 480,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0057.png": {
+          "frame": {
+            "x": 560,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0058.png": {
+          "frame": {
+            "x": 640,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0059.png": {
+          "frame": {
+            "x": 720,
+            "y": 400,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0060.png": {
+          "frame": {
+            "x": 0,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0061.png": {
+          "frame": {
+            "x": 80,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0062.png": {
+          "frame": {
+            "x": 160,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0063.png": {
+          "frame": {
+            "x": 240,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0064.png": {
+          "frame": {
+            "x": 320,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0065.png": {
+          "frame": {
+            "x": 400,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0066.png": {
+          "frame": {
+            "x": 480,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0067.png": {
+          "frame": {
+            "x": 560,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0068.png": {
+          "frame": {
+            "x": 640,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0069.png": {
+          "frame": {
+            "x": 720,
+            "y": 480,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0070.png": {
+          "frame": {
+            "x": 0,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0071.png": {
+          "frame": {
+            "x": 80,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0072.png": {
+          "frame": {
+            "x": 160,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0073.png": {
+          "frame": {
+            "x": 240,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0074.png": {
+          "frame": {
+            "x": 320,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0075.png": {
+          "frame": {
+            "x": 400,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0076.png": {
+          "frame": {
+            "x": 480,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0077.png": {
+          "frame": {
+            "x": 560,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0078.png": {
+          "frame": {
+            "x": 640,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0079.png": {
+          "frame": {
+            "x": 720,
+            "y": 560,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0080.png": {
+          "frame": {
+            "x": 0,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0081.png": {
+          "frame": {
+            "x": 80,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0082.png": {
+          "frame": {
+            "x": 160,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0083.png": {
+          "frame": {
+            "x": 240,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0084.png": {
+          "frame": {
+            "x": 320,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0085.png": {
+          "frame": {
+            "x": 400,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0086.png": {
+          "frame": {
+            "x": 480,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0087.png": {
+          "frame": {
+            "x": 560,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0088.png": {
+          "frame": {
+            "x": 640,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0089.png": {
+          "frame": {
+            "x": 720,
+            "y": 640,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0090.png": {
+          "frame": {
+            "x": 0,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0091.png": {
+          "frame": {
+            "x": 80,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0092.png": {
+          "frame": {
+            "x": 160,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0093.png": {
+          "frame": {
+            "x": 240,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0094.png": {
+          "frame": {
+            "x": 320,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0095.png": {
+          "frame": {
+            "x": 400,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0096.png": {
+          "frame": {
+            "x": 480,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0097.png": {
+          "frame": {
+            "x": 560,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0098.png": {
+          "frame": {
+            "x": 640,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0099.png": {
+          "frame": {
+            "x": 720,
+            "y": 720,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0100.png": {
+          "frame": {
+            "x": 0,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0101.png": {
+          "frame": {
+            "x": 80,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0102.png": {
+          "frame": {
+            "x": 160,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0103.png": {
+          "frame": {
+            "x": 240,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0104.png": {
+          "frame": {
+            "x": 320,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0105.png": {
+          "frame": {
+            "x": 400,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0106.png": {
+          "frame": {
+            "x": 480,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0107.png": {
+          "frame": {
+            "x": 560,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0108.png": {
+          "frame": {
+            "x": 640,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0109.png": {
+          "frame": {
+            "x": 720,
+            "y": 800,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0110.png": {
+          "frame": {
+            "x": 0,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0111.png": {
+          "frame": {
+            "x": 80,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0112.png": {
+          "frame": {
+            "x": 160,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0113.png": {
+          "frame": {
+            "x": 240,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0114.png": {
+          "frame": {
+            "x": 320,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0115.png": {
+          "frame": {
+            "x": 400,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0116.png": {
+          "frame": {
+            "x": 480,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0117.png": {
+          "frame": {
+            "x": 560,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0118.png": {
+          "frame": {
+            "x": 640,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0119.png": {
+          "frame": {
+            "x": 720,
+            "y": 880,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0120.png": {
+          "frame": {
+            "x": 0,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0121.png": {
+          "frame": {
+            "x": 80,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0122.png": {
+          "frame": {
+            "x": 160,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0123.png": {
+          "frame": {
+            "x": 240,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0124.png": {
+          "frame": {
+            "x": 320,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0125.png": {
+          "frame": {
+            "x": 400,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0126.png": {
+          "frame": {
+            "x": 480,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0127.png": {
+          "frame": {
+            "x": 560,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0128.png": {
+          "frame": {
+            "x": 640,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0129.png": {
+          "frame": {
+            "x": 720,
+            "y": 960,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0130.png": {
+          "frame": {
+            "x": 0,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0131.png": {
+          "frame": {
+            "x": 80,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0132.png": {
+          "frame": {
+            "x": 160,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0133.png": {
+          "frame": {
+            "x": 240,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0134.png": {
+          "frame": {
+            "x": 320,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0135.png": {
+          "frame": {
+            "x": 400,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0136.png": {
+          "frame": {
+            "x": 480,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0137.png": {
+          "frame": {
+            "x": 560,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0138.png": {
+          "frame": {
+            "x": 640,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0139.png": {
+          "frame": {
+            "x": 720,
+            "y": 1040,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0140.png": {
+          "frame": {
+            "x": 0,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0141.png": {
+          "frame": {
+            "x": 80,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0142.png": {
+          "frame": {
+            "x": 160,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0143.png": {
+          "frame": {
+            "x": 240,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0144.png": {
+          "frame": {
+            "x": 320,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0145.png": {
+          "frame": {
+            "x": 400,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0146.png": {
+          "frame": {
+            "x": 480,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0147.png": {
+          "frame": {
+            "x": 560,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0148.png": {
+          "frame": {
+            "x": 640,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0149.png": {
+          "frame": {
+            "x": 720,
+            "y": 1120,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0150.png": {
+          "frame": {
+            "x": 0,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0151.png": {
+          "frame": {
+            "x": 80,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0152.png": {
+          "frame": {
+            "x": 160,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0153.png": {
+          "frame": {
+            "x": 240,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0154.png": {
+          "frame": {
+            "x": 320,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0155.png": {
+          "frame": {
+            "x": 400,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0156.png": {
+          "frame": {
+            "x": 480,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0157.png": {
+          "frame": {
+            "x": 560,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0158.png": {
+          "frame": {
+            "x": 640,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0159.png": {
+          "frame": {
+            "x": 720,
+            "y": 1200,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0160.png": {
+          "frame": {
+            "x": 0,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0161.png": {
+          "frame": {
+            "x": 80,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0162.png": {
+          "frame": {
+            "x": 160,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0163.png": {
+          "frame": {
+            "x": 240,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0164.png": {
+          "frame": {
+            "x": 320,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0165.png": {
+          "frame": {
+            "x": 400,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0166.png": {
+          "frame": {
+            "x": 480,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0167.png": {
+          "frame": {
+            "x": 560,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0168.png": {
+          "frame": {
+            "x": 640,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        },
+  
+        "rollSequence0169.png": {
+          "frame": {
+            "x": 720,
+            "y": 1280,
+            "w": 79,
+            "h": 79
+          },
+          "rotated": false,
+          "trimmed": true,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 79,
+            "h": 79
+          },
+          "sourceSize": {
+            "w": 1390,
+            "h": 800
+          }
+        }
+    },
+  "meta": {
+    "image": "freeze.png",
+    "size": {
+      "w": 1390,
+      "h": 800
+    },
+    "scale": 1
+  }
+}
