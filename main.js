@@ -41,7 +41,7 @@ const character = {
     knock_down: [30, 31, 32, 33, 34],
     knock_up: [35, 36],
     fire: [37, 38],
-    defense: [57],
+    defense: [57]
     // jump: [],
   },
   key: {
@@ -51,7 +51,7 @@ const character = {
     down: keyboard(188),
     defense: keyboard(190),
     attack: keyboard(75),
-    jump: keyboard(32),
+    jump: keyboard(32)
   },
   rememberKeyList: []
 }

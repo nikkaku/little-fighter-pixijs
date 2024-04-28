@@ -31,7 +31,7 @@ const character = {
     knock_up: [35, 36],
     fire: [37, 38],
     defense: [56, 57],
-    jump: [37, 38],
+    jump: [37, 38]
   },
   key : {
     code: {
@@ -41,7 +41,7 @@ const character = {
       188: 'down',
       190: 'defense',
       75: 'attack',
-      32: 'jump',
+      32: 'jump'
     },
     object: {},
     history: []

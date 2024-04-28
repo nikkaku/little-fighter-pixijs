@@ -4,7 +4,7 @@ export function framesTemplate ({ rows = 10, cols = 17 } = {}) {
     col: 0,
     count: 0,
     width: 79,
-    height: 79,
+    height: 79
   }
 
   let fileContext = ''
@@ -36,7 +36,7 @@ export function framesTemplate ({ rows = 10, cols = 17 } = {}) {
   `
       data.count++
     }
-}
+  }
   fileContext += '  },'
   fileContext += `
   "meta": {
