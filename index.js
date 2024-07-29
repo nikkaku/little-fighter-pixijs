@@ -1,10 +1,15 @@
 import '@/assets/index.css'
 import { Application, Assets, Sprite, Texture, AnimatedSprite, Text } from 'pixi.js'
 // import Character from '@/utils/character.js'
+import Load from '@/utils/load.js'
 
 const app = new Application()
 await app.init({ width: 460, height: 320, backgroundColor: 0xecedf1, antialias: false })
 document.body.appendChild(app.canvas)
+
+const f = new Load()
+await f.init()
+console.log(f.json())
 
 const character = {
   speed: 2,
