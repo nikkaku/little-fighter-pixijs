@@ -1,9 +1,9 @@
 export default class {
   constructor () {
-    this.data = {}
+    this.keys = null
   }
 
-  hello () {
-    console.log('hello world.')
+  setKeyFunction () {
+    console.log('hello.')
   }
 }
