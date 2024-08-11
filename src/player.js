@@ -1,44 +1,36 @@
 import Load from '@/utils/load.js'
 import { Assets, Texture, AnimatedSprite } from 'pixi.js'
 
-export class Keyboard {
-  #keys
-  #lifecycle
-
+// 角色資訊可往外傳
+export class Player {
   constructor () {
-    this.#keys = []
-    this.#lifecycle = 1000
-  }
-
-  get getKeyList () {
-    return this.#keys.map(item => item[1])
-  }
-
-  set keys (keys) {
-    this.#keys = keys
-  }
-
-  add (key) {
-    this.#keys.push([new Date().getTime(), key])
-  }
-
-  ticker () {
-    this.#keys = this.#keys.filter(item => item[0] + this.#lifecycle > new Date().getTime())
-  }
-}
-
-export class Character {
-  constructor () {
-    this.data = {}
-    this.keys = []
+    this.id = 0
+    this.name = 'com'
+    this.team = 0
+    this.keys = {
+      74: 'left',
+      73: 'up',
+      76: 'right',
+      188: 'down',
+      190: 'defense',
+      75: 'attack',
+      32: 'jump'
+    }
+    this.mp = 0
+    this.hp = 0
+    this.x = 0
+    this.y = 0
+    this.isEffect = false
+    this.isBreak = false
+    this.isJump = false
   }
 
   init () {
     // this.keys = new Keyboard()
   }
 
-  ticker () {
-    console.log('this.keys', this.keys)
+  action () {
+
   }
 
   async wait () {
@@ -89,7 +81,7 @@ export class Character {
       animation: undefined
     }
     
-    const actionCharacter = async () => {
+    const actionPlayer = async () => {
       await Assets.load(new URL('@/assets/freeze.json', import.meta.url).href)
       for (const [key, arr] of Object.entries(character.action)) {
         character.action[key] = arr.map(item => Texture.from(`rollSequence${item.toString().padStart(4, '0')}.png`))
@@ -201,15 +193,11 @@ export class Character {
 
     const handler = (env) => character.key.object[character.key.code[env.keyCode]].handler(env)
 
-    // const target = new Character()
+    // const target = new Player()
     // console.log(target.character)
-    await actionCharacter()
+    await actionPlayer()
 
     window.addEventListener('keydown', handler.bind(handler), false)
     window.addEventListener('keyup', handler.bind(handler), false)
-  }
-
-  action () {
-
   }
 }
