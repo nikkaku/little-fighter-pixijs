@@ -1,31 +1,47 @@
-export const keys = []
-const addKeys = []
-const removeKeys = []
+export default class {
+  #activeKeys
+  #historyKeys
 
-export const addKeysAction = (env) => {
-  addKeys.push({ keyCode: env.keyCode, time: new Date().getTime() })
-}
+  constructor () {
+    this.#activeKeys = []
+    this.#historyKeys = []
+  }
 
-export const removeKeysAction = (arr = []) => {
-  removeKeys.concat(arr)
-}
+  init = () => {
+  }
 
-export const updateKeysAction = () => {
-  const now = new Date().getTime()
-  const add = structuredClone(addKeys)
-  const remove = removeKeys.map(item => item.index)
-  addKeys.length = 0
-  removeKeys.length = 0
+  action (env) {
+    if (env.type === 'keydown' && !this.#activeKeys.map(item => item.keyCode).includes(env.keyCode)) {
+      this.#activeKeys.push({ keyCode: env.keyCode, type: env.type, timestamp: new Date().getTime() })
+    } else if (env.type === 'keyup') {
+      const target = this.#activeKeys.findIndex(cur => cur.keyCode === env.keyCode)
+      this.#activeKeys.splice(target, 1)
+      this.#historyKeys.push({ keyCode: env.keyCode, timestamp: new Date().getTime() })
+    }
+  }
 
-  const target = structuredClone(keys)
-    .filter(item => !(item.time + 3000 <= now || remove.includes(item.index)))
-    .concat(add)
-    .map((item, index) => { return { ...item, index } })
+  consume = () => {
+    // if (Object.)
+  //   this.#historyKeys.concat(arr)
+  }
 
-  keys.length = 0
-  keys.push(...target)
-}
+  update () {
+    const now = new Date().getTime()  
+    const target = structuredClone(this.#historyKeys)
+      .filter(item => !(item.timestamp + 1000 <= now))
+  
+    this.#historyKeys.length = 0
+    this.#historyKeys.push(...target)
+  }
 
-export default () => {
-  window.addEventListener('keydown', addKeysAction.bind(addKeysAction), false)
+  get get () {
+    return {
+      active: this.#activeKeys,
+      history: this.#historyKeys
+    }
+  }
+
+  static format (arr = []) {
+    return arr.flat().map(item => item.keyCode)
+  }
 }
