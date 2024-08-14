@@ -3,7 +3,8 @@ import { defineConfig } from 'vite'
 
 
 export default defineConfig({
-  base: process.env.NODE_ENV ? '/' : '/little-fighter-pixijs/',
+  // deploy github page setting
+  base: process.env.NODE_ENV === 'development' ? '/' : `/${process.env.npm_package_name}/`,
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
