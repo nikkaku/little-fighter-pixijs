@@ -1,43 +1,71 @@
-import { Graphics } from 'pixi.js'
+import { Graphics, Text, Container, BlurFilter } from 'pixi.js'
 import Keyboard  from '@/keyboard.js'
 
 export default class {
   constructor (app) {
     this.app = app
+    this.keys = []
     this.id = 0
     this.player = null
-    this.name = 'com'
+    this.character = null
+    this.name = null
     this.team = 0
     this.mp = 0
     this.hp = 0
-    this.isEffect = false
-    this.isBreak = false
     this.jump = null
     this.jumpY = 0
   }
 
   init (color = '8e8e8e') {
-    if (this.player) this.player.clear()
-    else this.player = new Graphics()
-    this.player.rect(300, 300, 50, 50)
-    this.player.fill(`0x${color}`)
-    this.app.stage.addChild(this.player)
+    if (!this.player) {
+      this.player = new Container()
+      this.app.stage.addChild(this.player)
+      this.player.x = 300
+      this.player.y = 300
+
+      this.character = new Graphics()
+      this.character.rect(0, 0, 50, 50)
+      this.character.fill(`0x${color}`)
+      this.character.x = (this.player.width - this.character.width) / 2
+      this.character.y = (this.player.height - this.character.height) / 2
+      this.player.addChild(this.character)
+
+      const userName = 'username'
+      const style = { fontSize: 14, fontWeight: '200', align: 'center', fill: 0x000000, letterSpacing: 1 }
+      this.name = new Container()
+      const shadow = new Text({ text: userName, style, resolution: window.devicePixelRatio })
+      shadow.filters = [new BlurFilter({ kernelSize: 5, quality: 6, strength: 1 })]
+      const label = new Text({ text: userName, style: { ...style, fill: 0xffffff }, resolution: window.devicePixelRatio })
+      this.name.addChild(shadow)
+      this.name.addChild(label)
+      this.name.y = (this.character.height - this.name.height) / 2 + 20
+      this.name.pivot.set(this.name.width / 2, this.name.height / 2)
+      this.player.addChild(this.name)
+    } else {
+      this.character.clear()
+      this.character.rect(0, 0, 50, 50)
+      this.character.fill(`0x${color}`)
+    }
+  }
+
+  add (env) {
+    this.keys.push({ keyCode: env.keyCode, type: env.type, timestamp: new Date().getTime() })
   }
 
   update ({ obj }) {
-    const speed = 3
-    const active = Keyboard.format(Object.values(obj.active))
+    const speed = 2.8
+    const active = Keyboard.format(Object.values(obj.active)).filter(item => [75, 190, 32, 73, 74, 76, 188].includes(item))
     const history = Keyboard.format(Object.values(obj.history))
 
     if (this.jump !== null) {
       if (this.jump) {
-        this.player.vy = -speed * 2
-        if (this.jumpY - 160 > this.player.y) this.jump = false
+        this.player.vy = -speed * 2.8
+        if (this.jumpY - 210 > this.player.y) this.jump = false
       } else if (!this.jump) {
         if (this.jumpY <= this.player.y) {
           this.player.vy = this.jumpY - this.player.y
           this.jump = null
-        } else this.player.vy = speed * 2.1
+        } else this.player.vy = speed * 3
       }
     } else if (active.includes(75)) {
       this.init('d65959')
@@ -72,125 +100,4 @@ export default class {
     this.player.x += this.player.vx
     this.player.y += this.player.vy
   }
-
-  // async wait () {
-  //   const actionPlayer = async () => {
-  //     await Assets.load(new URL('@/assets/freeze.json', import.meta.url).href)
-  //     for (const [key, arr] of Object.entries(character.action)) {
-  //       character.action[key] = arr.map(item => Texture.from(`rollSequence${item.toString().padStart(4, '0')}.png`))
-  //     }
-  //     character.animation = new AnimatedSprite(character.action.stand)
-  //     character.animation.animationSpeed = .1
-  //     character.animation.pivot.set(character.animation._texture.frame.height / 2, character.animation._texture.frame.width / 2)
-  //     character.animation.x = app.renderer.width / 2
-  //     character.animation.y = app.renderer.height / 2
-  //     character.animation.play()
-  //     app.stage.addChild(character.animation)
-    
-  //     character.key.object = Object.entries(character.key.code).reduce((acc, cur) => {
-  //       const target = { code: Number(cur[0]), press: undefined, operate: false }
-      
-  //       target.handler = (env) => {
-  //         switch (env.type) {
-  //           case 'keydown':
-  //             if (target.press) target.press(true)
-  //             target.operate = true
-  //             break
-  //           case 'keyup':
-  //             if (target.press) target.press(false)
-  //             target.operate = false
-  //             break
-  //         }
-  //         env.preventDefault()
-  //       }
-      
-  //       acc[cur[1]] = target
-  //       return acc
-  //     }, {})
-    
-    
-  //     character.key.object.left.press = (bol) => {
-  //       if (bol) {
-  //         character.vx = -character.speed
-  //         character.animation.scale.x = -1
-  //         character.animation._textures = character.action.walk
-  //       } else {
-  //         character.vx = 0
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.up.press = (bol) => {
-  //       if (bol) {
-  //         character.vy = -character.speed
-  //         character.animation._textures = character.action.walk
-  //       } else {
-  //         character.vy = 0
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.right.press = (bol) => {
-  //       if (bol) {
-  //         character.vx = character.speed
-  //         character.animation.scale.x = 1
-  //         character.animation._textures = character.action.walk
-  //       } else {
-  //         character.vx = 0
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.down.press = (bol) => {
-  //       if (bol) {
-  //         character.vy = character.speed
-  //         character.animation._textures = character.action.walk
-  //       } else {
-  //         character.vy = 0
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.attack.press = (bol) => {
-  //       if (bol) {
-  //         character.animation._textures = character.action.attack
-  //       } else {
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.defense.press = (bol) => {
-  //       if (bol) {
-  //         character.animation._textures = character.action.defense
-  //       } else {
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-      
-  //     character.key.object.jump.press = (bol) => {
-  //       if (bol) {
-  //         if (!character.key.object.jump.operate) character.jump.y = character.animation.y
-  //         character.animation.y = character.jump.y + character.jump.value
-  //         character.animation._textures = character.action.jump
-  //       } else {
-  //         if (character.key.object.jump.operate) character.animation.y = character.jump.y
-  //         character.animation._textures = character.action.stand
-  //       }
-  //     }
-    
-  //     // app.ticker.add(delta => {
-  //     //   character.animation.x += character.vx
-  //     //   character.animation.y += character.vy
-  //     // })
-  //   }
-
-  //   // const handler = (env) => character.key.object[character.key.code[env.keyCode]].handler(env)
-
-  //   // const target = new Player()
-  //   // console.log(target.character)
-  //   // await actionPlayer()
-
-  //   // window.addEventListener('keydown', handler.bind(handler), false)
-  //   // window.addEventListener('keyup', handler.bind(handler), false)
-  // }
 }

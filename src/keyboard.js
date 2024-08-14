@@ -1,16 +1,34 @@
+import Player from '@/player.js'
+
 export default class {
   #activeKeys
   #historyKeys
 
-  constructor () {
+  constructor (app) {
+    this.app = app
     this.#activeKeys = []
     this.#historyKeys = []
   }
 
   init = () => {
+    window.addEventListener('keydown', (env) => this.action(env), false)
+    window.addEventListener('keyup', (env) => this.action(env), false)
+    // window.addEventListener('keypress', this.action.bind(keyboard.action), false)
+
+    const player = new Player(this.app)
+    player.init()
+  
+    // app.ticker.add(_delta => {
+    this.app.ticker.add(() => {
+      this.update()
+
+      player.update({ obj: this.get })
+      // player.add(env)
+    })
   }
 
   action (env) {
+    // player.add()
     if (env.type === 'keydown' && !this.#activeKeys.map(item => item.keyCode).includes(env.keyCode)) {
       this.#activeKeys.push({ keyCode: env.keyCode, type: env.type, timestamp: new Date().getTime() })
     } else if (env.type === 'keyup') {
