@@ -19,6 +19,3 @@ import fs from 'fs'
     fs.writeFile('./src/assets/data/qq.txt', q, function () {})
   })
 }())
-
-// .dat to .json
-// .bmp to .webp
