@@ -1,14 +1,17 @@
 import jimp from 'jimp'
-import sharp from 'sharp'
 
 (async function () {
-  const bmp = './src/assets/sprite/sys/freeze_s.bmp'
+  const bmp = './src/assets/sprite/sys/freeze_0.bmp'
   const png = bmp.replace(/bmp$/, 'png')
-  const webp = bmp.replace(/bmp$/, 'webp')
 
   const result = await jimp.read(bmp)
-  await result.write(png)
-  // const base64 = await result.getBase64Async(jimp.MIME_PNG)
-  await new Promise((resolve) => setTimeout(() => resolve(), 800))
-  await sharp(png).webp().toFile(webp)
+  result.scan(0, 0, result.bitmap.width, result.bitmap.height, function (x, y, idx) {
+    const r = this.bitmap.data[idx]
+    const g = this.bitmap.data[idx + 1]
+    const b = this.bitmap.data[idx + 2]
+
+    if (r === 0 && g === 0 && b === 0) this.bitmap.data[idx + 3] = 0
+  })
+
+  await result.writeAsync(png)
 }())
