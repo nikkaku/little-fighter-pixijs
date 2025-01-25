@@ -1,22 +1,22 @@
 export default class {
-  constructor () {
+  constructor() {
     this.data = {}
   }
 
-  async init () {
+  async init() {
     const url = await import.meta.glob('@/assets/data/*.txt', { eager: true, import: 'default' })
-    const response = await fetch(url['/src/assets/data/freeze_column.txt'])
+    const response = await fetch(url['/src/assets/data/freeze.txt'])
       .then(res => res.text())
       .then(res => res)
 
     this.formatDatFile(response)
   }
 
-  json () {
+  json() {
     return this.data
   }
 
-  formatDatFile (val) {
+  formatDatFile(val) {
     const target = val
       // format picture url
       .replace(/file\((\d*)-(\d*)\)(.*)/g, 'file_$1_$2:\nurl$3\nfile_end:')
@@ -75,5 +75,6 @@ export default class {
 
     // this.data = target
     this.data = JSON.parse(`{${target}}`)
+    console.log([...new Set(Object.values(this.data).map(item => Number(item.pic)).sort((a, b) => a > b ? 1 : -1))])
   }
 }
